@@ -1,6 +1,7 @@
 import { useState } from "react";
 // import LikeButton from "./components/LikeButton"
-import Counter from "./components/Counter"
+// import Counter from "./components/Counter";
+import Notification from "./components/Notification";
 
 function App() {
 
@@ -12,10 +13,13 @@ function App() {
     }
 
     return(
+        // <div>
+        //     {/* <LikeButton /> */}
+        //     <Counter  count={count}/>
+        //     <button onClick={increase}>Increase</button>
+        // </div>
         <div>
-            {/* <LikeButton /> */}
-            <Counter  count={count}/>
-            <button onClick={increase}>Increase</button>
+            <Notification />
         </div>
     )
 }
